@@ -1,0 +1,49 @@
+.Home{
+}
+.vid{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+.navbar{
+  display:flex;
+  height:4rem;
+  padding: 0.8em 1em;
+  background: rgb(0,0,0,0.9);
+  color:white;
+  justify-content: center;
+  align-items: center;
+}
+.hi{
+  display:flex;
+  margin:10px;
+  color:white;
+  font-size:30px;
+}
+.body{
+  display:flex;
+  background-color:black;
+}
+.logo{
+  display:flex;
+  align-items: center;
+  margin-right:1em;
+}
+.text{
+  flex-basis: 100%;
+  font-size:1.2rem;
+  outline: 0;
+  width:400px;
+  height:40px;
+}
+.img{
+  display: flex;
+  align-items:center;
+}
+.button{
+  background-color: darkgray;
+  outline:0;
+}
+.img2{
+  height:100%;
+  padding: 0.5em, 0.2em;
+}
